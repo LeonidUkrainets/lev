@@ -1,13 +1,19 @@
-     * {
-       font-family: 'Times','Georgia', serif, Helvetica, Arial;
-       }
+/* Стилі дльа сторінок про тваринні символи */
+* {
+  font-family: 'Times','Georgia', serif, Helvetica, Arial;
+  }
+a {
+   color: SeaGreen;
+   text-decoration: none;
+  }
+img {
+    border-radius: 100%;
+    }
+h1 {
+    color     : FireBrick;
+   }
+p  {
+   font-size : 16px;
+   } 
 
-     a {
-        color: SeaGreen;
-        text-decoration: none;
-       }
-
-     img {
-          border-radius: 100%;
-          }
 
