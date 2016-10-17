@@ -1,6 +1,7 @@
 /* Стилі дльа сторінок про тваринні символи */
 * {
   font-family: Roboto, Arial;
+  color: hsla(360, 100%, 100%, 1);
   }
 a {
    color: FireBrick;
