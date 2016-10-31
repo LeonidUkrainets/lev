@@ -1,6 +1,6 @@
 /* Стилі дльа сторінок про тваринні символи */
 * {
-  font-family: Roboto, Arial;
+  font-family: Arial;
   font-style: medium;
   color: hsla(1, 0%, 0%, 1);
   }
@@ -15,7 +15,7 @@ h1 {
     color     : FireBrick;
    }
 p  {
-   font-size : 100%;
+   font-size : 120%;
    line-height: 1.5em;
    } 
 
