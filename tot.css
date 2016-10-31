@@ -15,7 +15,8 @@ h1 {
     color     : FireBrick;
    }
 p  {
-   font-size : 16px;
+   font-size : 100%;
+   line-height: 1.5em;
    } 
 
 
