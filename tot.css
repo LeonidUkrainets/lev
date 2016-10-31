@@ -13,6 +13,7 @@ img {
     }
 h1 {
     color     : FireBrick;
+    text-align: right;
    }
 p  {
    font-size : 120%;
