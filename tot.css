@@ -1,27 +1,76 @@
-/* Стилі дльа сторінок про тваринні символи */
-* {
-  font-family: Arial;
-  font-style: medium;
-  color: hsla(1, 0%, 0%, 1);
-  /* background-image: url("http://africaners.com/wp-content/uploads/2015/03/l-vy-2.jpg"); */
-  }
-a {
-   color: FireBrick;
-   text-decoration: none;
-  }
-img {
-    border-radius: 100%;
-    }
-h1 {
-    color     : FireBrick;
-    text-align: center;
-   }
-p  {
-   font-size : 120%;
-   line-height: 1.5em;
-   font-weight: bold;
-   text-align: width;
-   /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);*/
-   } 
+img{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+h1{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 65px;
+	border: groove;
+	border-width: 5px;
+	border-color: red;
+	border-radius: 10px;
+}
 
+h2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+	font-color: #000080;
+	border: dotted;
+	border-width: 5px;
+	border-radius: 20px;
+	border-color: green;
+	margin: 30px 550px;
+}
+
+body{
+	font-family: Calibri;
+	text-align: justify;
+	margin-left: 12px;
+	margin-right: 12px;
+	font-size: 20px;
+}
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: yellow;
+}
+
+ol{
+  counter-reset: myCounter;
+}
+
+li{
+  list-style: none;
+}
+
+li:before {
+  counter-increment: myCounter;
+  content:counter(myCounter);
+  color: white;
+  background: #2980B9;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+}
